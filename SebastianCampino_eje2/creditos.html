@@ -1,323 +1,510 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <title>NYC - US</title>
+    <!--En este punto se agrega el título de la pagina-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Se llama el estiloObtener el estilo-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>NYC - US</title>
-  <!--En este punto se agrega el título de la pagina-->
-  <link rel="stylesheet" href="css/styles.css" />
-  <!--Se llama el estiloObtener el estilo-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-</head>
-
-<body>
-  <header>
-    <nav>
+  <body>
+    <header>
       <!--Se crea el panel de navegación-->
-      <a href="index.html">Inicio</a><!--Se crea cada uno de los menús-->
-      <a href="personajes.html">Personajes</a>
-      <a href="historia.html">Historia</a>
-      <a href="quehacer.html">Qué hacer</a>
-      <a href="informacion.html">Ubicación</a>
-      <a href="creditos.html">Créditos</a>
-    </nav>
-
-    <section class="textos-header">
-      <h1>La capital del mundo</h1>
-      <!--Creo el titulo que sera visible en el header-->
-      <h2>DREAM IT</h2>
-      <h2>WISH IT</h2>
-      <h2>DO IT</h2>
-    </section>
-    <h1 class="titulo">Créditos y Mapa de Navegación</h1>
-  </header>
-
-  <main>
-    <section id="mapa-sitio" class="portafolio">
-      <div class="contenedor">
-        <div class="container-tabla-mapa-sitio portafolio">
-          <table class="tabla-mapa-sitio">
-            <caption>
-              Tabla de Mapa de Sitio
-            </caption>
-            <thead>
-              <tr>
-                <th colspan="6">Mapa de Sitio</th>
-              </tr>
-            </thead>
-            <tr>
-              <td>&nbsp;</td>
-            </tr>
-            <tr class="parent-container">
-              <td class="parent">
-                <a target="_self" href="index.html" class="mapa-links-parent">Inicio</a>
-              </td>
-              <td class="parent">
-                <a target="_self" href="personajes.html" class="mapa-links-parent">Personajes</a>
-              </td>
-              <td class="parent">
-                <a target="_self" href="historia.html" class="mapa-links-parent">Historia</a>
-              </td>
-              <td class="parent">
-                <a target="_self" href="quehacer.html" class="mapa-links-parent">Qué Hacer</a>
-              </td>
-              <td class="parent">
-                <a target="_self" href="informacion.html" class="mapa-links-parent">Ubicación</a>
-              </td>
-              <td class="parent">
-                <a target="_self" href="creditos.html" class="mapa-links-parent">Créditos</a>
-              </td>
-            </tr>
-            <tr class="child-container">
-              <td class="child">
-                <ul>
-                  <li>
-                    <a target="_self" href="index.html#exploraelcentralpark" class="mapa-links-child">Explora el Central
-                      Park</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="index.html#experienciasunicas" class="mapa-links-child">Experiencias
-                      Únicas</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="index.html#personajesNYC" class="mapa-links-child">Personajes que habitan
-                      NYC</a>
-                  </li>
-                </ul>
-              </td>
-              <td class="child">
-                <ul>
-                  <li>
-                    <a target="_self" href="personajes.html#garcialorca" class="mapa-links-child">Federico García Lorca
-                      en
-                      Nueva York</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="personajes.html#billieholiday" class="mapa-links-child">Billie Holiday y el
-                      Jazz en Harlem</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="personajes.html#mariacallas" class="mapa-links-child">Maria Callas y la
-                      Comunidad Griega</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="personajes.html#humphreybogart" class="mapa-links-child">Humphrey Bogart y
-                      Lauren Bacall</a>
-                  </li>
-                </ul>
-              </td>
-              <td class="child">
-                <ul>
-                  <li>
-                    <a target="_self" href="historia.html#fundacion" class="mapa-links-child">Fundación y
-                      Colonización</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="historia.html#crecimiento" class="mapa-links-child">Crecimiento y
-                      Comercio</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="historia.html#epocadorada" class="mapa-links-child">Época Dorada y
-                      Emigración</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="historia.html#crisis" class="mapa-links-child">Crisis y Renacimiento</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="historia.html#renovacion" class="mapa-links-child">Renovación y Desafíos</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="historia.html#nyhoy" class="mapa-links-child">Nueva York hoy</a>
-                  </li>
-                </ul>
-              </td>
-              <td class="child">
-                <ul>
-                  <li>
-                    <a target="_self" href="quehacer.html#lugares" class="mapa-links-child">Lugares por visitar</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="quehacer.html#nyciudadnuncaduerme" class="mapa-links-child">Nueva York, la
-                      ciudad que nunca duerme</a>
-                  </li>
-                </ul>
-              </td>
-              <td class="child">
-                <ul>
-                  <li>
-                    <a target="_self" href="informacion.html#mapa" class="mapa-links-child">Mapa de Manhattan</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="informacion.html#nydiversidadcomerciocultura" class="mapa-links-child">Nueva
-                      York: Diversidad, Comercio, Cultura, Referencia,
-                      Belleza.</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="informacion.html#nycentroglobal" class="mapa-links-child">Nueva York: Centro
-                      Global de Transporte, Cultura y
-                      Oportunidades.</a>
-                  </li>
-                </ul>
-              </td>
-              <td class="child">
-                <ul>
-                  <li>
-                    <a target="_self" href="creditos.html#mapa-sitio" class="mapa-links-child">Mapa del Sitio</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="creditos.html#sitiosweb" class="mapa-links-child">Referencias: Sitios Web
-                      Utilzados</a>
-                  </li>
-                  <li>
-                    <a target="_self" href="creditos.html#autor" class="mapa-links-child">Autor Sitio Web</a>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-          </table>
+      <nav class="main-nav">
+        <div class="toggle-menu" id="toggle-menu">
+          <label for="toggle-menu-checkbox">
+            <img src="img/menu.png" alt="" class="imagen-hamburguesa" />
+          </label>
         </div>
-      </div>
-    </section>
-
-    <section id="sitiosweb" class="contenedor">
-      <h1 class="Title">Referencias - Sitios Web Utilizados</h1>
-      <div class="contenedor-large">
-        <ul class="links-list">
-          <li>
-            <a target="_blank" href="https://es.wikipedia.org/wiki/Nueva_York">New York</a>
-            - Artículo de Wikipedia. - Imágenes y contenido
+        <input
+          type="checkbox"
+          class="toggle-menu__checkbox"
+          id="toggle-menu-checkbox"
+        />
+        <ul id="main-menu" class="main-menu">
+          <!--Se crea cada uno de los menús-->
+          <li class="main-menu__item">
+            <a href="index.html" class="main-menu__link">Inicio</a>
           </li>
-          <li>
-            <a target="_blank" href="https://www.visittheusa.co/destination/ciudad-de-nueva-york">Ciudad de Nueva
-              York</a>
-            - Artículo de Visit The USA ©. - Imágenes y contenido
+          <li class="main-menu__item">
+            <a href="personajes.html" class="main-menu__link">Personajes</a>
           </li>
-          <li>
-            <a target="_blank" href="https://www.turismonuevayork.com/ciudad-nueva-york/">Ciudad de Nueva York</a>
-            - Artículo del sitio web Turismo Nueva York. - Imágenes y
-            contenido
+          <li class="main-menu__item">
+            <a href="historia.html" class="main-menu__link">Historia</a>
           </li>
-          <li>
-            <a target="_blank" href="https://media.nomadicmatt.com/2023/nycitineraryfeature.jpg">World Trade Center
-              View</a>
-            - Imagen del sitio web de turismo Nomadicmatt. - Imagen
+          <li class="main-menu__item">
+            <a href="quehacer.html" class="main-menu__link">Actividades</a>
           </li>
-          <li>
-            <a target="_blank" href="https://www.thecollector.com/the-creation-of-central-park/">The Creation of Central
-              Park, NY: Vaux & Olmsted’s Greensward
-              Plan</a>
-            - Articulo de The Collector. - Imagen
+          <li class="main-menu__item">
+            <a href="informacion.html" class="main-menu__link">Ubicación</a>
           </li>
-          <li>
-            <a target="_blank"
-              href="https://historia.nationalgeographic.com.es/medio/2019/01/30/_a75b8c89_1200x630.jpg">Fundación Nueva
-              York</a>
-            - Contenido del Archivo de National Geographic (Historia). -
-            Imagen
-          </li>
-          <li>
-            <a target="_blank"
-              href="https://images.squarespace-cdn.com/content/v1/57c5a333e58c625a7e36a989/1523028922118-1OA69H3SXYZ74VO7KIJI/1960+Aerial+View.jpg?format=2500w">New
-              York en la Gran Depresión</a>
-            - Contenido del archivo del CDN Squarespace. - Imagen
-          </li>
-          <li>
-            <a target="_blank"
-              href="https://www.investopedia.com/thmb/uSjO_BX5Jl550BBLNla1QGFmZ5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/LowerManhattanSkyline-900c48d4f1064a97893dbc1548d775e1.jpg">Lower
-              Manhattan Skyline</a>
-            - Contenido del Archivo de Investopedia. - Imagen
-          </li>
-          <li>
-            <a target="_blank" href="https://travel.usnews.com/images/Times_Square_Getty.jpg">Time Square View</a>
-            - Contenido de Travel.usnews.com - Imagen
-          </li>
-          <li>
-            <a target="_blank"
-              href="https://media.istockphoto.com/id/1368628035/es/foto/puente-de-brooklyn-en-la-puesta-de-sol.jpg?s=612x612&w=0&k=20&c=zvv6PIq539geiWaXNCR6gDfTC8wU2wZrhDX_HV4Ch2Y=">Brooklyn
-              Bridge</a>
-            - Contenido del archivo de istockphoto.com - Imagen
-          </li>
-          <li>
-            <a target="_blank" href="https://www.libertaddigital.com/cultura/libros/2019-11-14/espiritus-de-nueva-york-25-famosos-marcados-por-una-ciudad-1276647901/
-                        ">'Espíritus de Nueva York', 25 famosos marcados por una
-              ciudad</a>
-            - Articulo de la revista Libertad Digital- Contenido
-          </li>
-          <li>
-            <a target="_blank" href="https://www.hojadellunes.com/federico-garcia-lorca-poeta-en-nueva-york/">Federico
-              García Lorca: poeta en Nueva York
-            </a>
-            - Articulo de la revista Hoja Del Lunes de Alicante - Imagen
-          </li>
-          <li>
-            <a target="_blank" href="https://historiahoy.com.ar/el-triste-final-del-angel-harlem-n1096">Billie Holiday:
-              El triste final del ángel de Harlem
-            </a>
-            - Articulo de la revista HistoriaHoy - Imagen
-          </li>
-          <li>
-            <a target="_blank" href="https://www.pinterest.com.mx/pin/499969996132184382/">Maria Callas
-            </a>
-            - Contenido del archivo de Pinterest - Imagen
-          </li>
-          <li>
-            <a target="_blank"
-              href="https://filasiete.com/articulos/vestuario-produccion/estilo-cine-lauren-bacall-la-creacion-de-un-sueno-eterno/">Lauren
-              Bacall, la creación de un sueño eterno
-            </a>
-            - Articulo de la revista FilaSiete - Imagen
+          <li class="main-menu__item">
+            <a href="creditos.html" class="main-menu__link">Créditos</a>
           </li>
         </ul>
-      </div>
-    </section>
+      </nav>
 
+      <section class="textos-header">
+        <h1>La capital del mundo</h1>
+        <!--Creo el titulo que sera visible en el header-->
+        <h2>DREAM IT</h2>
+        <h2>WISH IT</h2>
+        <h2>DO IT</h2>
+      </section>
+      <h1 class="titulo">Créditos y Mapa de Navegación</h1>
+    </header>
 
-    <section id="autor" class="portafolio">
-      <div class="contenedor">
-        <h2 class="titulo">Autor Sitio Web</h2>
-
-        <div class="galeria-port">
-          <div class="imagen-port">
-            <img src="img/sebastian1.jpg" alt="" />
+    <main>
+      <section id="mapa-sitio" class="portafolio">
+        <div class="contenedor">
+          <div class="container-tabla-mapa-sitio portafolio">
+            <table class="tabla-mapa-sitio">
+              <caption>
+                Tabla de Mapa de Sitio
+              </caption>
+              <thead>
+                <tr>
+                  <th colspan="6">Mapa de Sitio</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="parent-container">
+                <td class="parent">
+                  <a target="_self" href="index.html" class="mapa-links-parent"
+                    >Inicio</a
+                  >
+                </td>
+                <td class="parent">
+                  <a
+                    target="_self"
+                    href="personajes.html"
+                    class="mapa-links-parent"
+                    >Personajes</a
+                  >
+                </td>
+                <td class="parent">
+                  <a
+                    target="_self"
+                    href="historia.html"
+                    class="mapa-links-parent"
+                    >Historia</a
+                  >
+                </td>
+                <td class="parent">
+                  <a
+                    target="_self"
+                    href="quehacer.html"
+                    class="mapa-links-parent"
+                    >Qué Hacer</a
+                  >
+                </td>
+                <td class="parent">
+                  <a
+                    target="_self"
+                    href="informacion.html"
+                    class="mapa-links-parent"
+                    >Ubicación</a
+                  >
+                </td>
+                <td class="parent">
+                  <a
+                    target="_self"
+                    href="creditos.html"
+                    class="mapa-links-parent"
+                    >Créditos</a
+                  >
+                </td>
+              </tr>
+              <tr class="child-container">
+                <td class="child">
+                  <ul>
+                    <li>
+                      <a
+                        target="_self"
+                        href="index.html#exploraelcentralpark"
+                        class="mapa-links-child"
+                        >Explora el Central Park</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="index.html#experienciasunicas"
+                        class="mapa-links-child"
+                        >Experiencias Únicas</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="index.html#personajesNYC"
+                        class="mapa-links-child"
+                        >Personajes que habitan NYC</a
+                      >
+                    </li>
+                  </ul>
+                </td>
+                <td class="child">
+                  <ul>
+                    <li>
+                      <a
+                        target="_self"
+                        href="personajes.html#garcialorca"
+                        class="mapa-links-child"
+                        >Federico García Lorca en Nueva York</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="personajes.html#billieholiday"
+                        class="mapa-links-child"
+                        >Billie Holiday y el Jazz en Harlem</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="personajes.html#mariacallas"
+                        class="mapa-links-child"
+                        >Maria Callas y la Comunidad Griega</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="personajes.html#humphreybogart"
+                        class="mapa-links-child"
+                        >Humphrey Bogart y Lauren Bacall</a
+                      >
+                    </li>
+                  </ul>
+                </td>
+                <td class="child">
+                  <ul>
+                    <li>
+                      <a
+                        target="_self"
+                        href="historia.html#fundacion"
+                        class="mapa-links-child"
+                        >Fundación y Colonización</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="historia.html#crecimiento"
+                        class="mapa-links-child"
+                        >Crecimiento y Comercio</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="historia.html#epocadorada"
+                        class="mapa-links-child"
+                        >Época Dorada y Emigración</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="historia.html#crisis"
+                        class="mapa-links-child"
+                        >Crisis y Renacimiento</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="historia.html#renovacion"
+                        class="mapa-links-child"
+                        >Renovación y Desafíos</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="historia.html#nyhoy"
+                        class="mapa-links-child"
+                        >Nueva York hoy</a
+                      >
+                    </li>
+                  </ul>
+                </td>
+                <td class="child">
+                  <ul>
+                    <li>
+                      <a
+                        target="_self"
+                        href="quehacer.html#lugares"
+                        class="mapa-links-child"
+                        >Lugares por visitar</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="quehacer.html#nyciudadnuncaduerme"
+                        class="mapa-links-child"
+                        >Nueva York, la ciudad que nunca duerme</a
+                      >
+                    </li>
+                  </ul>
+                </td>
+                <td class="child">
+                  <ul>
+                    <li>
+                      <a
+                        target="_self"
+                        href="informacion.html#mapa"
+                        class="mapa-links-child"
+                        >Mapa de Manhattan</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="informacion.html#nydiversidadcomerciocultura"
+                        class="mapa-links-child"
+                        >Nueva York: Diversidad, Comercio, Cultura, Referencia,
+                        Belleza.</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="informacion.html#nycentroglobal"
+                        class="mapa-links-child"
+                        >Nueva York: Centro Global de Transporte, Cultura y
+                        Oportunidades.</a
+                      >
+                    </li>
+                  </ul>
+                </td>
+                <td class="child">
+                  <ul>
+                    <li>
+                      <a
+                        target="_self"
+                        href="creditos.html#mapa-sitio"
+                        class="mapa-links-child"
+                        >Mapa del Sitio</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="creditos.html#sitiosweb"
+                        class="mapa-links-child"
+                        >Referencias: Sitios Web Utilzados</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        target="_self"
+                        href="creditos.html#autor"
+                        class="mapa-links-child"
+                        >Autor Sitio Web</a
+                      >
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
+      </section>
 
-        <div class="contenido-textos">
-          <p>
-            Soy Sebastian Campiño Figueroa, estudiante de Ingeniería
-            Mecatrónica en la Universidad Nacional de Colombia. Desde 2020, me
-            aventuro en el mundo de la tecnología, explorando la visión por
-            computadora, inteligencia artificial, automatización industrial y
-            robótica. Más allá de la tecnología, encuentro mi inspiración en
-            la música techno y el rap. Disfruto jugando fútbol, explorando
-            anime, nuevos lugares y desafiándome con la diversidad de idiomas.
-            Mi fascinación por la mecatrónica se entrelaza con mi amor por la
-            música, los viajes y la diversidad cultural.
-          </p>
+      <section id="sitiosweb" class="contenedor">
+        <h1 class="Title">Referencias - Sitios Web Utilizados</h1>
+        <div class="contenedor-large">
+          <ul class="links-list">
+            <li>
+              <a target="_blank" href="https://es.wikipedia.org/wiki/Nueva_York"
+                >New York</a
+              >
+              - Artículo de Wikipedia. - Imágenes y contenido
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.visittheusa.co/destination/ciudad-de-nueva-york"
+                >Ciudad de Nueva York</a
+              >
+              - Artículo de Visit The USA ©. - Imágenes y contenido
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.turismonuevayork.com/ciudad-nueva-york/"
+                >Ciudad de Nueva York</a
+              >
+              - Artículo del sitio web Turismo Nueva York. - Imágenes y
+              contenido
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://media.nomadicmatt.com/2023/nycitineraryfeature.jpg"
+                >World Trade Center View</a
+              >
+              - Imagen del sitio web de turismo Nomadicmatt. - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.thecollector.com/the-creation-of-central-park/"
+                >The Creation of Central Park, NY: Vaux & Olmsted’s Greensward
+                Plan</a
+              >
+              - Articulo de The Collector. - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://historia.nationalgeographic.com.es/medio/2019/01/30/_a75b8c89_1200x630.jpg"
+                >Fundación Nueva York</a
+              >
+              - Contenido del Archivo de National Geographic (Historia). -
+              Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://images.squarespace-cdn.com/content/v1/57c5a333e58c625a7e36a989/1523028922118-1OA69H3SXYZ74VO7KIJI/1960+Aerial+View.jpg?format=2500w"
+                >New York en la Gran Depresión</a
+              >
+              - Contenido del archivo del CDN Squarespace. - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.investopedia.com/thmb/uSjO_BX5Jl550BBLNla1QGFmZ5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/LowerManhattanSkyline-900c48d4f1064a97893dbc1548d775e1.jpg"
+                >Lower Manhattan Skyline</a
+              >
+              - Contenido del Archivo de Investopedia. - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://travel.usnews.com/images/Times_Square_Getty.jpg"
+                >Time Square View</a
+              >
+              - Contenido de Travel.usnews.com - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://media.istockphoto.com/id/1368628035/es/foto/puente-de-brooklyn-en-la-puesta-de-sol.jpg?s=612x612&w=0&k=20&c=zvv6PIq539geiWaXNCR6gDfTC8wU2wZrhDX_HV4Ch2Y="
+                >Brooklyn Bridge</a
+              >
+              - Contenido del archivo de istockphoto.com - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.libertaddigital.com/cultura/libros/2019-11-14/espiritus-de-nueva-york-25-famosos-marcados-por-una-ciudad-1276647901/
+                        "
+                >'Espíritus de Nueva York', 25 famosos marcados por una
+                ciudad</a
+              >
+              - Articulo de la revista Libertad Digital- Contenido
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.hojadellunes.com/federico-garcia-lorca-poeta-en-nueva-york/"
+                >Federico García Lorca: poeta en Nueva York
+              </a>
+              - Articulo de la revista Hoja Del Lunes de Alicante - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://historiahoy.com.ar/el-triste-final-del-angel-harlem-n1096"
+                >Billie Holiday: El triste final del ángel de Harlem
+              </a>
+              - Articulo de la revista HistoriaHoy - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.pinterest.com.mx/pin/499969996132184382/"
+                >Maria Callas
+              </a>
+              - Contenido del archivo de Pinterest - Imagen
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://filasiete.com/articulos/vestuario-produccion/estilo-cine-lauren-bacall-la-creacion-de-un-sueno-eterno/"
+                >Lauren Bacall, la creación de un sueño eterno
+              </a>
+              - Articulo de la revista FilaSiete - Imagen
+            </li>
+          </ul>
         </div>
+      </section>
 
-        <a target="_blank" href="https://www.linkedin.com/in/sebastian-campino/" class="boton-centrado">LinkedIn</a>
+      <section id="autor" class="portafolio">
+        <div class="contenedor">
+          <h2 class="titulo">Autor Sitio Web</h2>
+
+          <div class="galeria-port">
+            <div class="imagen-port">
+              <img src="img/sebastian1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="contenido-textos">
+            <p>
+              Soy Sebastian Campiño Figueroa, estudiante de Ingeniería
+              Mecatrónica en la Universidad Nacional de Colombia. Desde 2020, me
+              aventuro en el mundo de la tecnología, explorando la visión por
+              computadora, inteligencia artificial, automatización industrial y
+              robótica. Más allá de la tecnología, encuentro mi inspiración en
+              la música techno y el rap. Disfruto jugando fútbol, explorando
+              anime, nuevos lugares y desafiándome con la diversidad de idiomas.
+              Mi fascinación por la mecatrónica se entrelaza con mi amor por la
+              música, los viajes y la diversidad cultural.
+            </p>
+          </div>
+
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/sebastian-campino/"
+            class="boton-centrado"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>
+          <b>Sebastian Campiño Figueroa - Estudiante Ingeniería Mecatrónica</b>
+        </p>
+        <p>
+          <a href="mailto:shcampinof@unal.edu.co">shcampinof@unal.edu.co</a>
+        </p>
       </div>
-    </section>
-
-
-  </main>
-
-  <footer>
-    <div>
-      <p>
-        <b>Sebastian Campiño Figueroa - Estudiante Ingeniería Mecatrónica</b>
-      </p>
-      <p>
-        <a href="mailto:shcampinof@unal.edu.co">shcampinof@unal.edu.co</a>
-      </p>
-    </div>
-    <div>
-      <p><b>Universidad Nacional de Colombia - Sede Bogotá.</b></p>
-      <p>Gráfica Interactiva 2023-2</p>
-    </div>
-  </footer>
-</body>
-
+      <div>
+        <p><b>Universidad Nacional de Colombia - Sede Bogotá.</b></p>
+        <p>Gráfica Interactiva 2023-2</p>
+      </div>
+    </footer>
+  </body>
 </html>

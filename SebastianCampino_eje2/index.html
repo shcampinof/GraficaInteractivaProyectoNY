@@ -23,15 +23,39 @@ Por tanto solo se comenta la página index que es la principal-->
 
   <body>
     <header>
-      <nav>
-        <!--Se crea el panel de navegación-->
-        <a href="index.html">Inicio</a
-        ><!--Se crea cada uno de los menús-->
-        <a href="personajes.html">Personajes</a>
-        <a href="historia.html">Historia</a>
-        <a href="quehacer.html">Qué hacer</a>
-        <a href="informacion.html">Ubicación</a>
-        <a href="creditos.html">Créditos</a>
+      <!--Se crea el panel de navegación-->
+      <nav class="main-nav">
+        <div class="toggle-menu" id="toggle-menu">
+          <label for="toggle-menu-checkbox">
+            <img src="img/menu.png" alt="" class="imagen-hamburguesa" />
+          </label>
+        </div>
+        <input
+          type="checkbox"
+          class="toggle-menu__checkbox"
+          id="toggle-menu-checkbox"
+        />
+        <ul id="main-menu" class="main-menu">
+          <!--Se crea cada uno de los menús-->
+          <li class="main-menu__item">
+            <a href="index.html" class="main-menu__link">Inicio</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="personajes.html" class="main-menu__link">Personajes</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="historia.html" class="main-menu__link">Historia</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="quehacer.html" class="main-menu__link">Actividades</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="informacion.html" class="main-menu__link">Ubicación</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="creditos.html" class="main-menu__link">Créditos</a>
+          </li>
+        </ul>
       </nav>
 
       <section class="textos-header">
