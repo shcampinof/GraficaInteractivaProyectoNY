@@ -443,7 +443,7 @@ footer a {
 
 
 /* Media Query para teléfono celular */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   /* Modificaciones específicas para teléfono celular */
 
   header {
