@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>NYC - US</title>
+  <!-- En este punto se agrega el título de la pagina -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Se llama el estilo Obtener el estilo -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <!-- Se crea el panel de navegación -->
+    <nav class="main-nav">
+      <div class="toggle-menu" id="toggle-menu">
+        <label for="toggle-menu-checkbox">
+          <img src="img/menu.png" alt class="imagen-hamburguesa" />
+        </label>
+      </div>
+      <input type="checkbox" class="toggle-menu__checkbox" id="toggle-menu-checkbox" />
+      <ul id="main-menu" class="main-menu">
+        <!-- Se crea cada uno de los menús -->
+        <li class="main-menu__item">
+          <a href="index.html" class="main-menu__link">Inicio</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="personajes.html" class="main-menu__link">Personajes</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="historia.html" class="main-menu__link">Historia</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="quehacer.html" class="main-menu__link">Actividades</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="ubicacion.html" class="main-menu__link">Ubicación</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="creditos.html" class="main-menu__link">Créditos</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="ubicacion.html#mapaI" class="main-menu__link">MapaInteractivo</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="textos-header">
+      <h1>La capital del mundo</h1>
+      <!-- Creo el titulo que sera visible en el header -->
+      <h2>DREAM IT</h2>
+      <h2>WISH IT</h2>
+      <h2>DO IT</h2>
+    </section>
+    <h1 class="titulo">Ubicación</h1>
+  </header>
+
+  <main>
+    <section class="contenedor sobre-nosotros">
+      <div class="contenedor-sobre-nosotros">
+        <section id="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.16459646328!2d-74.05163215300398!3d40.75916222985353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sco!4v1695617232066!5m2!1sen!2sco"
+            width="600" height="450" style="border: 0" allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <div class="contenedor">
+          <div class="contenido-textos">
+            <section id="nydiversidadcomerciocultura"></section>
+            <p>Nueva York, ubicada en la costa noreste de los Estados Unidos, se alza como un faro de la
+              actividad y la diversidad en la región. Situada en el noreste del estado de Nueva York, la
+              ciudad se extiende a lo largo de cinco distritos principales: Manhattan, Brooklyn, Queens,
+              Bronx y Staten Island. El río Hudson fluye hacia el oeste de Manhattan, mientras que el
+              East River separa Manhattan de Brooklyn y Queens. Esta ubicación privilegiada le ha otorgado
+              a Nueva York un papel central en el comercio, la cultura y las comunicaciones globales,
+              convirtiéndola en un punto de referencia para el mundo entero. Además, la ciudad está
+              rodeada de una gran belleza natural, desde la costa del Atlántico en el sur hasta los
+              bosques y montañas del estado de Nueva York al norte.</p>
+            <section id="nycentroglobal"></section>
+            <p>La situación geográfica de Nueva York la convierte en un importante centro de transporte.
+              Los tres aeropuertos principales, JFK, LaGuardia y Newark Liberty, la conectan con el
+              mundo. Además, su sistema de transporte público, que incluye el metro y autobuses,
+              facilita la movilidad dentro de la ciudad y sus alrededores. La proximidad a otras ciudades
+              importantes del noreste de los Estados Unidos, como Boston y Washington, D.C., hace que
+              Nueva York sea un punto de partida conveniente para explorar la región. Esta ubicación
+              estratégica, junto con su impacto cultural y económico global, la convierte en un destino
+              de renombre mundial que atrae a millones de visitantes y residentes que buscan aprovechar
+              sus innumerables oportunidades y encantos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor sobre-nosotros" id="mapaI">
+        <h2 class="h2">Mapa Interactivo de Manhattan</h2>
+
+        <div class="mapa_interactivo">
+          <!-- Mapa base -->
+          <img src="img/manhattanArtMap.jpg" alt="Mapa de Manhattan" class="mapImg" />
+          <!-- Marcadores, con una imagen de apuntador y un texto que lo acompaña -->
+          <div class="marker buttonHome">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker" onclick="changeInfoManhattan('Home')"
+                src="img/home.png" alt="Home" /></a>
+            <span class="tooltiptext">Inicio</span>
+          </div>
+          <div class="marker buttonTimesSquare">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker"
+                onclick="changeInfoManhattan('TimesSquare')" src="img/point.png" alt="Times Square" /></a>
+            <span class="tooltiptext">Times Square</span>
+          </div>
+          <!-- Agrega marcadores para otros lugares según tu necesidad -->
+          <div class="marker buttonCentralPark">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker"
+                onclick="changeInfoManhattan('CentralPark')" src="img/point.png" alt="Central Park" /></a>
+            <span class="tooltiptext">Central Park</span>
+          </div>
+          <div class="marker buttonEmpireStateBuilding">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker"
+                onclick="changeInfoManhattan('EmpireStateBuilding')" src="img/point.png"
+                alt="Empire State Building" /></a>
+            <span class="tooltiptext">Empire State Building</span>
+          </div>
+          <div class="marker buttonBrooklynBridge">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker"
+                onclick="changeInfoManhattan('BrooklynBridge')" src="img/point.png" alt="Brooklyn Bridge" /></a>
+            <span class="tooltiptext">Puente de Brooklyn</span>
+          </div>
+          <div class="marker buttonMuseumModernArt">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker"
+                onclick="changeInfoManhattan('MuseumModernArt')" src="img/point.png" alt="MoMA" /></a>
+            <span class="tooltiptext">MoMA</span>
+          </div>
+          <div class="marker buttonGrandCentralTerminal">
+            <a href="#Info" target="_self" class="aMarker"><img class="imgMarker"
+                onclick="changeInfoManhattan('GrandCentralTerminal')" src="img/point.png"
+                alt="Grand Central Terminal" /></a>
+            <span class="tooltiptext">Grand Central Terminal</span>
+          </div>
+        </div>
+      </div>
+      <!-- Información de los lugares -->
+      <div class="MapInfoManhattan" id="MapInfoManhattan">
+        <h3>Explora Manhattan</h3>
+        <br><br>
+        <p>Haz clic en los Puntos Marcados para ver Información sobre el lugar.</p>
+        <br>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <p><b>Sebastian Campiño Figueroa - Estudiante Ingeniería Mecatrónica</b></p>
+      <p><a href="mailto:shcampinof@unal.edu.co">shcampinof@unal.edu.co</a></p>
+    </div>
+    <div>
+      <p><b>Universidad Nacional de Colombia - Sede Bogotá.</b></p>
+      <p>Gráfica Interactiva 2023-2</p>
+    </div>
+  </footer>
+</body>
+
+</html>
